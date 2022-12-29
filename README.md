@@ -1,6 +1,6 @@
 # otp-timer-ts
 
-A simple and customizable react otp timer component with typescript support. very simple and more customizable design and smallest bundle size about 7kb. You can use this component into any react and nextjs projects.
+A simple and customizable react otp timer component with typescript support. very simple and more customizable design and smallest bundle size about 13kb. You can use this component into any react and nextjs projects.
 
 [![npm downloads](https://cdn.jsdelivr.net/gh/siamahnaf198/react-simple-phone-input@main/assets/downloads.svg)](https://www.npmjs.com/package/otp-timer-ts)
 [![PRs Welcome](https://cdn.jsdelivr.net/gh/siamahnaf198/react-simple-phone-input@main/assets/prs-welcome.svg)](https://github.com/siamahnaf198/otp-timer-ts)
@@ -8,7 +8,7 @@ A simple and customizable react otp timer component with typescript support. ver
 
 - SSR Friendly
 - Customizable
-- Smallest Bundle Size(About 7kb)
+- Smallest Bundle Size(About 13kb)
 
 
 ## Installation
