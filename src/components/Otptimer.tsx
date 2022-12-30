@@ -7,7 +7,7 @@ interface Props {
     text?: string;
     buttonText?: string;
     containerClass?: string;
-    buttonContainerClass: string;
+    buttonContainerClass?: string;
     textClass?: string;
     timerClass?: string;
     buttonStyle?: React.CSSProperties;
