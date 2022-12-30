@@ -12,13 +12,15 @@ interface Props {
     timerClass?: string;
     buttonStyle?: React.CSSProperties;
     textStyle?: React.CSSProperties;
+    timerStyle?: React.CSSProperties;
     buttonContainerStyle?: React.CSSProperties;
+    textContainerStyle?: React.CSSProperties;
     onResend: () => void
 }
 
 const Otptimer = (props: Props) => {
     //From props
-    const { text = "Resend otp in", containerClass = "otp-timer-container", buttonText = "Resend", textClass = "otp-text", buttonContainerClass = "button-container", timerClass = "otp-timer", buttonStyle, buttonContainerStyle, textStyle, onResend } = props;
+    const { text = "Resend otp in", containerClass = "otp-timer-container", buttonText = "Resend", textClass = "otp-text", buttonContainerClass = "button-container", timerClass = "otp-timer", buttonStyle, buttonContainerStyle, timerStyle, textStyle, textContainerStyle, onResend } = props;
     //State
     const [minutes, setMinutes] = React.useState<number>(props.minutes ? props.minutes : 0)
     const [seconds, setSeconds] = React.useState<number>(props.seconds ? props.seconds : 30)
@@ -60,9 +62,9 @@ const Otptimer = (props: Props) => {
         margin: 0,
         ...buttonStyle
     }
-    const textStyles = {
+    const textContainerStyles = {
         fontSize: "15px",
-        ...textStyle
+        ...textContainerStyle
     }
     return (
         <div>
@@ -73,10 +75,10 @@ const Otptimer = (props: Props) => {
                     </button>
                 </div>
             ) : (
-                <div className={containerClass} style={textStyles}>
-                    <span className={textClass}>{text}</span>{" "}
-                    <span className={timerClass}>{minutes < 10 ? `0${minutes}` : minutes}</span>:
-                    <span className={timerClass}>{seconds < 10 ? `0${seconds}` : seconds}</span>
+                <div className={containerClass} style={textContainerStyles}>
+                    <span className={textClass} style={textStyle}>{text}</span>{" "}
+                    <span className={timerClass} style={timerStyle}>{minutes < 10 ? `0${minutes}` : minutes}</span>:
+                    <span className={timerClass} style={timerStyle}>{seconds < 10 ? `0${seconds}` : seconds}</span>
                 </div>
             )}
         </div>

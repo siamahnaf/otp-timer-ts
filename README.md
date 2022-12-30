@@ -94,7 +94,17 @@ export default Home;
   <tr>
     <td> textStyle </td>
     <td> CSSProperties </td>
-    <td> styles for timer text </td>
+    <td> styles for text </td>
+  </tr>
+  <tr>
+    <td> timerStyle </td>
+    <td> CSSProperties </td>
+    <td> styles for timer </td>
+  </tr>
+  <tr>
+    <td> textContainerStyle </td>
+    <td> CSSProperties </td>
+    <td> styles for timer text container </td>
   </tr>
 </table>
 
