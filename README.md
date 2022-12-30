@@ -8,6 +8,7 @@ A simple and customizable react otp timer component with typescript support. ver
 
 - SSR Friendly
 - Customizable
+- TypeScript Support
 - Smallest Bundle Size(About 13kb)
 
 
