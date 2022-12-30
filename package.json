@@ -1,6 +1,6 @@
 {
   "name": "otp-timer-ts",
-  "version": "2.0.2",
+  "version": "2.0.3",
   "description": "A simple react otp timer component with resend functionality🤷",
   "homepage": "https://github.com/siamahnaf198/otp-timer-ts",
   "main": "dist/cjs/index.js",

@@ -77,8 +77,10 @@ const Otptimer = (props: Props) => {
             ) : (
                 <div className={containerClass} style={textContainerStyles}>
                     <span className={textClass} style={textStyle}>{text}</span>{" "}
-                    <span className={timerClass} style={timerStyle}>{minutes < 10 ? `0${minutes}` : minutes}</span>:
-                    <span className={timerClass} style={timerStyle}>{seconds < 10 ? `0${seconds}` : seconds}</span>
+                    <span className={timerClass} style={timerStyle}>
+                        <span>{minutes < 10 ? `0${minutes}` : minutes}</span>:
+                        <span>{seconds < 10 ? `0${seconds}` : seconds}</span>
+                    </span>
                 </div>
             )}
         </div>
