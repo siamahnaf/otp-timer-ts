@@ -52,6 +52,7 @@ export default Home;
 | onResend     | function that would get triggered on clicking the resend button |       n/a       |
 | text       |                content that you want to put down                |  Resend otp in  |
 | ButtonText |                            button text                          |     Resend      |
+| loadingComponent |        loading component for showing on button            |     undefined      |
 
 ## Styling
 
