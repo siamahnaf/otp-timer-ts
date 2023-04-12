@@ -52,7 +52,6 @@ export default Home;
 | onResend     | function that would get triggered on clicking the resend button |       n/a       |
 | text       |                content that you want to put down                |  Resend otp in  |
 | ButtonText |                            button text                          |     Resend      |
-| loadingComponent |        loading component for showing on button            |     undefined      |
 
 ## Styling
 
@@ -118,7 +117,7 @@ You are welcome to create an issue.
 - Author - [Siam Ahnaf](https://www.siamahnaf.com/)
 - Website - [https://www.siamahnaf.com/](https://www.siamahnaf.com/)
 - Twitter - [https://twitter.com/siamahnaf198](https://twitter.com/siamahnaf198)
-- Github - [https://github.com/siamahnaf198](https://github.com/siamahnaf198)
+- Github - [https://github.com/siamahnaf](https://github.com/siamahnaf)
 
 ## License
-otp-timer-ts is [MIT licensed](https://github.com/siamahnaf198/otp-timer-ts/blob/main/LICENSE).
+otp-timer-ts is [MIT licensed](https://github.com/siamahnaf/otp-timer-ts/blob/main/LICENSE).

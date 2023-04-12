@@ -8,7 +8,7 @@ interface Props {
     buttonText?: string;
     containerClass?: string;
     buttonContainerClass?: string;
-    loadingComponent?: React.ReactNode | undefined;
+    buttonComponent?: React.ReactNode;
     textClass?: string;
     timerClass?: string;
     buttonStyle?: React.CSSProperties;
@@ -21,7 +21,7 @@ interface Props {
 
 const Otptimer = (props: Props) => {
     //From props
-    const { text = "Resend otp in", containerClass = "otp-timer-container", buttonText = "Resend", textClass = "otp-text", buttonContainerClass = "button-container", timerClass = "otp-timer", buttonStyle, buttonContainerStyle, timerStyle, textStyle, textContainerStyle, onResend, loadingComponent } = props;
+    const { text = "Resend otp in", containerClass = "otp-timer-container", buttonText = "Resend", textClass = "otp-text", buttonContainerClass = "button-container", timerClass = "otp-timer", buttonStyle, buttonContainerStyle, timerStyle, textStyle, textContainerStyle, onResend } = props;
     //State
     const [minutes, setMinutes] = React.useState<number>(props.minutes ? props.minutes : 0)
     const [seconds, setSeconds] = React.useState<number>(props.seconds ? props.seconds : 30)
@@ -72,7 +72,7 @@ const Otptimer = (props: Props) => {
             {minutes === 0 && seconds === 0 ? (
                 <div className={buttonContainerClass} style={buttonContainerStyle}>
                     <button onClick={resendHandler} style={ButtonStyles}>
-                        {loadingComponent ?? buttonText}
+                        {buttonText}
                     </button>
                 </div>
             ) : (

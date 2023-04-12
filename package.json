@@ -1,8 +1,8 @@
 {
   "name": "otp-timer-ts",
-  "version": "2.1.0",
+  "version": "2.1.4",
   "description": "A simple react otp timer component with resend functionality🤷",
-  "homepage": "https://github.com/siamahnaf198/otp-timer-ts",
+  "homepage": "https://github.com/siamahnaf/otp-timer-ts",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
   "files": [
@@ -31,8 +31,8 @@
   ],
   "repository": {
     "type": "git",
-    "directory": "https://github.com/siamahnaf198/otp-timer-ts",
-    "url": "https://github.com/siamahnaf198/otp-timer-ts"
+    "directory": "https://github.com/siamahnaf/otp-timer-ts",
+    "url": "https://github.com/siamahnaf/otp-timer-ts"
   },
   "peerDependencies": {
     "react": "^18.2.0",
