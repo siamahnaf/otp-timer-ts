@@ -1,3 +1,5 @@
+<img src="https://res.cloudinary.com/dbjrx698c/image/upload/v1704611347/logo_w4vxp0.png" width="100" height="100" style="display: block; margin: 0 auto;">
+
 # otp-timer-ts
 
 A simple and customizable react otp timer component with typescript support. very simple and more customizable design and smallest bundle size about 13kb. You can use this component into any react and nextjs projects.
