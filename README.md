@@ -123,3 +123,4 @@ You are welcome to create an issue.
 
 ## License
 otp-timer-ts is [MIT licensed](https://github.com/siamahnaf/otp-timer-ts/blob/main/LICENSE).
+
