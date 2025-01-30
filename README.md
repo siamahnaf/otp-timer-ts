@@ -1,3 +1,13 @@
+# ⚠️ Package Renamed & No Longer Maintained  
+
+## This package has been renamed to [`@siamf/otp-timer`](https://www.npmjs.com/package/@siamf/otp-timer)  
+
+### Please use [`@siamf/otp-timer`](https://www.npmjs.com/package/@siamf/otp-timer) instead.  
+
+This package **is no longer maintained**. For the latest updates and improvements, migrate to:  
+
+👉 [`@siamf/otp-timer`](https://www.npmjs.com/package/@siamf/otp-timer)
+
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://res.cloudinary.com/dub0dpenl/image/upload/v1731780157/Personal%20Logo/logo-white_e6fujz.png">
   <source media="(prefers-color-scheme: light)" srcset="https://res.cloudinary.com/dub0dpenl/image/upload/v1731780152/Personal%20Logo/logo-dark_qqwrqu.png">
